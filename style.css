@@ -1,0 +1,79 @@
+body
+{
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #333333;
+}
+.partiejaune
+{
+	background-color: #FFAA00;
+}
+
+.partiejaune
+{
+	display: flex;
+	flex-direction: column;
+	flex:0.3;
+}
+.partieblanche
+{
+	display: flex;
+	flex-direction: column;
+	flex:2;
+	padding-left: 50px;
+}
+.contact, p
+{
+	text-align: left;
+	padding-left: 15px;
+	
+}
+.conteneur
+{
+	display: flex;
+}
+.partiejaune p
+{
+color: #333333;
+}
+.partiejaune h4
+{
+	border: 15px #333333 solid;
+	background-color: #333333;
+	color: #FFAA00;
+	text-align: center;
+}
+.photofred
+{
+	-moz-border-radius: 100px;
+	-webkit-border-radius:100px;
+	border-radius: 100px;
+	background-position: center;
+}
+.Aproposdemoi, p
+{
+	text-align: justify;
+	padding-right: 15px;
+	padding-left:15px;
+}
+.FREDERIC
+{
+	color:#FFAA00;
+}
+.partieblanche p
+{
+	font-size: 50px;
+	font-family: sans-serif;
+}
+.developpeur
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.dévelo
+{
+	text-decoration: underline;
+	text-decoration-style: 15px;
+	text-decoration-color: #FFAA00;
+
+}
