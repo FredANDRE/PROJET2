@@ -6,7 +6,7 @@ body
 }
 .partiejaune
 {
-	background-color: #FFAA00;
+	background-color: #FFAB00;
 }
 
 .partiejaune
@@ -40,7 +40,7 @@ color: #333333;
 {
 	border: 15px #333333 solid;
 	background-color: #333333;
-	color: #FFAA00;
+	color: #FFAB00;
 	text-align: center;
 }
 .photofred
@@ -58,7 +58,7 @@ color: #333333;
 }
 .FREDERIC
 {
-	color:#FFAA00;
+	color:#FFAB00;
 }
 .partieblanche p
 {
@@ -74,6 +74,6 @@ color: #333333;
 {
 	text-decoration: underline;
 	text-decoration-style: 15px;
-	text-decoration-color: #FFAA00;
+	text-decoration-color: #FFAB00;
 
 }
