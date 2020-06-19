@@ -13,7 +13,7 @@ body
 {
 	display: flex;
 	flex-direction: column;
-	flex:0.3;
+	flex:0.7;
 }
 .partieblanche
 {
@@ -42,19 +42,19 @@ color: #333333;
 	background-color: #333333;
 	color: #FFAB00;
 	text-align: center;
+	
 }
 .photofred
 {
-	-moz-border-radius: 100px;
-	-webkit-border-radius:100px;
+	margin: 15px 20px 10px 60px;
 	border-radius: 100px;
-	background-position: center;
+	
 }
 .Aproposdemoi, p
 {
 	text-align: justify;
-	padding-right: 15px;
-	padding-left:15px;
+	padding-right: 20px;
+	padding-left:20px;
 }
 .FREDERIC
 {
@@ -70,10 +70,35 @@ color: #333333;
 	font-size: 25px;
 	font-weight: bold;
 }
-.dévelo
+.develo
 {
 	text-decoration: underline;
 	text-decoration-style: 15px;
 	text-decoration-color: #FFAB00;
+}
+i.fa-dumbbell
+{
+	
+	font-size: 35px;
+	margin: 10px 10px 25px 50px;
+	 padding: 5px;
+	border: 2px solid ;
+	border-radius: 100%;
+}
+i.fa-running
+{
+	font-size: 35px;
+	margin: 10px 10px 25px 10px;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid ;
+	border-radius: 100%;
 
+}
+i.fa-fish
+{
+	font-size: 35px;
+	margin: 10px 50px 25px 10px;
+	padding: 5px;
+	border: 2px solid ;
+	border-radius: 100%;
 }
