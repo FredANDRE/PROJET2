@@ -13,7 +13,7 @@ body
 {
 	display: flex;
 	flex-direction: column;
-	flex:0.7;
+	flex:0.6;
 }
 .partieblanche
 {
@@ -44,11 +44,14 @@ color: #333333;
 	text-align: center;
 	
 }
-.photofred
+.photoFred
 {
-	margin: 15px 20px 10px 60px;
+	border: black solid;
 	border-radius: 100px;
-	
+	width: 150px;
+	display: block;
+	margin:auto;
+	margin-top: 25px;
 }
 .Aproposdemoi, p
 {
@@ -56,13 +59,16 @@ color: #333333;
 	padding-right: 20px;
 	padding-left:20px;
 }
+.nomprenom
+{
+	font-size: 50px;
+}
 .FREDERIC
 {
 	color:#FFAB00;
 }
 .partieblanche p
 {
-	font-size: 50px;
 	font-family: sans-serif;
 }
 .developpeur
@@ -102,13 +108,9 @@ i.fa-fish
 	border: 2px solid ;
 	border-radius: 100%;
 }
-.formation
-{
-	text-decoration: underline;
-}
 #forma
 {
-	border:2px none black;
+	border:2px solid black;
 	display: flex;
 
 }
@@ -116,9 +118,25 @@ i.fa-fish
 {
 	border: 2px none black;
 	font-size: 30px;
-	margin: 10px 50px 25px 10px;
+	margin: 20px 50px 25px 10px;
 }
 i.fa-graduation-cap
 {
 	color: #FFAB00;
+}
+.loisir
+{
+	display: block;
+	margin: auto;
+}
+#forma
+{
+	border-bottom: 2px #FFAB00 solid;
+}
+.titreFormat
+{
+	border: 2px none black;
+	font-size: 30px;
+	margin: 20px 50px 25px 10px;
+	font-weight: bold;
 }
