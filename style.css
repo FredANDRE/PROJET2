@@ -102,3 +102,18 @@ i.fa-fish
 	border: 2px solid ;
 	border-radius: 100%;
 }
+#forma
+{
+	border:2px solid black;
+	display: flex;
+}
+i.logoforma
+{
+	border: 2px solid black;
+	font-size: 30px;
+	margin: 10px 50px 25px 10px;
+}
+.fa-graduation-cap
+{
+	color: #333333;
+}
