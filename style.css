@@ -102,18 +102,23 @@ i.fa-fish
 	border: 2px solid ;
 	border-radius: 100%;
 }
+.formation
+{
+	text-decoration: underline;
+}
 #forma
 {
-	border:2px solid black;
+	border:2px none black;
 	display: flex;
+
 }
-i.logoforma
+.logoforma
 {
-	border: 2px solid black;
+	border: 2px none black;
 	font-size: 30px;
 	margin: 10px 50px 25px 10px;
 }
-.fa-graduation-cap
+i.fa-graduation-cap
 {
-	color: #333333;
+	color: #FFAB00;
 }
