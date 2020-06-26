@@ -82,12 +82,18 @@ color: #333333;
 	text-decoration-style: 15px;
 	text-decoration-color: #FFAB00;
 }
+.icones
+{
+	display: block;
+	margin: auto;
+	
+}
 i.fa-dumbbell
 {
 	
 	font-size: 35px;
-	margin: 10px 10px 25px 50px;
-	 padding: 5px;
+	margin: 10px 10px 25px 40px;
+	padding: 5px;
 	border: 2px solid ;
 	border-radius: 100%;
 }
@@ -103,14 +109,14 @@ i.fa-running
 i.fa-fish
 {
 	font-size: 35px;
-	margin: 10px 50px 25px 10px;
+	margin: 10px 40px 25px 10px;
 	padding: 5px;
 	border: 2px solid ;
 	border-radius: 100%;
 }
 #forma
 {
-	border:2px solid black;
+	border:2px none black;
 	display: flex;
 
 }
@@ -124,11 +130,7 @@ i.fa-graduation-cap
 {
 	color: #FFAB00;
 }
-.loisir
-{
-	display: block;
-	margin: auto;
-}
+
 #forma
 {
 	border-bottom: 2px #FFAB00 solid;
@@ -140,3 +142,22 @@ i.fa-graduation-cap
 	margin: 20px 50px 25px 10px;
 	font-weight: bold;
 }
+li
+{
+	list-style-type: none;
+}
+.puce1
+{
+	display: block;
+	border:3px solid blue;
+}
+i.fa-dot-circle, .fa-circle
+{
+	color: #FFAB00;
+	font-size: 12px;
+	
+	
+}
+
+
+
