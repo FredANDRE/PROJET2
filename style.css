@@ -46,7 +46,7 @@ color: #333333;
 }
 .photoFred
 {
-	border: black solid;
+	border: 4px #FF9333 solid;
 	border-radius: 100px;
 	width: 150px;
 	display: block;
@@ -118,7 +118,7 @@ i.fa-fish
 {
 	border:2px none black;
 	display: flex;
-
+	border-bottom: 2px #FFAB00 solid;
 }
 .logoforma
 {
@@ -129,11 +129,6 @@ i.fa-fish
 i.fa-graduation-cap
 {
 	color: #FFAB00;
-}
-
-#forma
-{
-	border-bottom: 2px #FFAB00 solid;
 }
 .titreFormat
 {
@@ -146,18 +141,64 @@ li
 {
 	list-style-type: none;
 }
-.puce1
+.janvier
 {
-	display: block;
+	display: flex;
+	border:3px none blue;
+	flex-direction: row;
+	align-content: space-around;
+
+}
+i.fa-dot-circle
+{	
+	margin: 20px 20px 25px 10px;
+	width: 50px
+	height: 50px;
 	border:3px solid blue;
+
+}
+.blocDate
+{
+	margin: 20px 50px 25px 10px;
+	width: 200px;
+	height: 50px;
+	border:3px solid green;
+	font-weight: bold;
+	font-size: 15px;
+}
+.blocForma
+{
+	margin: 20px 50px 25px 10px;
+	width: 500px;
+	height: 50px;
+	border:3px solid grey;
 }
 i.fa-dot-circle, .fa-circle
 {
 	color: #FFAB00;
-	font-size: 12px;
-	
-	
+	font-size: 12px;	
 }
-
-
+#expe
+{
+	border-bottom: 2px #FFAB00 none;
+	border:2px none black;
+	display: flex;
+}
+.titreexpe
+{
+	border: 2px none black;
+	font-size: 30px;
+	margin: 20px 50px 25px 10px;
+	font-weight: bold;
+}
+.fa-briefcase
+{
+	color: #FFAB00;
+}
+.logoexpe
+{
+	border: 2px none black;
+	font-size: 30px;
+	margin: 20px 50px 25px 10px;
+}
 
