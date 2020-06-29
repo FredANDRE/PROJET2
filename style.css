@@ -141,15 +141,16 @@ li
 {
 	list-style-type: none;
 }
-.janvier
+.blocLogo
 {
 	display: flex;
-	border:3px none blue;
+	border:3px solid black;
 	flex-direction: row;
 	align-content: space-around;
+	height: 100px;
 
 }
-i.fa-dot-circle
+i.fa-dot-circle, .fa-circle
 {	
 	margin: 20px 20px 25px 10px;
 	width: 50px
@@ -168,10 +169,11 @@ i.fa-dot-circle
 }
 .blocForma
 {
-	margin: 20px 50px 25px 10px;
-	width: 500px;
-	height: 50px;
+	margin: 20px 10px 25px 10px;
+	width: 700px;
+	height: 70px;
 	border:3px solid grey;
+	overflow: scroll;
 }
 i.fa-dot-circle, .fa-circle
 {
@@ -180,9 +182,9 @@ i.fa-dot-circle, .fa-circle
 }
 #expe
 {
-	border-bottom: 2px #FFAB00 none;
 	border:2px none black;
 	display: flex;
+	border-bottom: 2px #FFAB00 solid;
 }
 .titreexpe
 {
