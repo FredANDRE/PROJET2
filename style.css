@@ -3,6 +3,7 @@ body
 	font-family: sans-serif;
 	font-size: 1em;
 	color: #333333;
+	margin: 0px;
 }
 .partiejaune
 {
@@ -13,7 +14,8 @@ body
 {
 	display: flex;
 	flex-direction: column;
-	flex:0.6;
+	width: 300px;
+	position: relative;
 }
 .partieblanche
 {
@@ -84,15 +86,16 @@ color: #333333;
 }
 .icones
 {
-	display: block;
+	display: flex;
 	margin: auto;
+	justify-content: space-around;
 	
 }
 i.fa-dumbbell
 {
 	
 	font-size: 35px;
-	margin: 10px 10px 25px 40px;
+	
 	padding: 5px;
 	border: 2px solid ;
 	border-radius: 100%;
@@ -100,7 +103,7 @@ i.fa-dumbbell
 i.fa-running
 {
 	font-size: 35px;
-	margin: 10px 10px 25px 10px;
+	
 	padding: 5px 10px 5px 10px;
 	border: 2px solid ;
 	border-radius: 100%;
@@ -109,16 +112,18 @@ i.fa-running
 i.fa-fish
 {
 	font-size: 35px;
-	margin: 10px 40px 25px 10px;
+	
 	padding: 5px;
 	border: 2px solid ;
 	border-radius: 100%;
+
 }
 #forma
 {
 	border:2px none black;
 	display: flex;
 	border-bottom: 2px #FFAB00 solid;
+	width: 95%;
 }
 .logoforma
 {
@@ -185,6 +190,7 @@ i.fa-dot-circle, .fa-circle
 	border:2px none black;
 	display: flex;
 	border-bottom: 2px #FFAB00 solid;
+	width: 95%;
 }
 .titreexpe
 {
@@ -202,5 +208,15 @@ i.fa-dot-circle, .fa-circle
 	border: 2px none black;
 	font-size: 30px;
 	margin: 20px 50px 25px 10px;
+}
+.loisir
+{
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+}
+ul
+{
+	padding-left: 0px;
 }
 
