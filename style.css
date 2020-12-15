@@ -1,23 +1,23 @@
-body
+html, body
 {
 	font-family: sans-serif;
 	font-size: 1em;
 	color: #333333;
 	margin: 0px;
 }
-.partiejaune
+.partieJaune
 {
 	background-color: #FFAB00;
 }
 
-.partiejaune
+.partieJaune
 {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
 	position: relative;
 }
-.partieblanche
+.partieBlanche
 {
 	display: flex;
 	flex-direction: column;
@@ -34,11 +34,11 @@ body
 {
 	display: flex;
 }
-.partiejaune p
+.partieJaune p
 {
 color: #333333;
 }
-.partiejaune h4
+.partieJaune h4
 {
 	border: 15px #333333 solid;
 	background-color: #333333;
@@ -61,15 +61,15 @@ color: #333333;
 	padding-right: 20px;
 	padding-left:20px;
 }
-.nomprenom
+.nomPrenom
 {
 	font-size: 50px;
 }
-.FREDERIC
+.FREDERIC h2
 {
 	color:#FFAB00;
 }
-.partieblanche p
+.partieBlanche p 
 {
 	font-family: sans-serif;
 }
